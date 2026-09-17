@@ -48,28 +48,28 @@ export function FinalCTA() {
         </Reveal>
 
         <Reveal delay={0.32}>
-          <div className="mx-auto mt-20 max-w-md border-t border-ivory/20 pt-10">
-            <p className="font-display text-2xl tracking-[0.14em] text-ivory sm:text-3xl">
+          <div className="mx-auto mt-20 max-w-xl border-t border-ivory/20 pt-10">
+            <p className="whitespace-nowrap font-display text-2xl tracking-[0.14em] text-ivory sm:text-3xl">
               {brand.name}
             </p>
             <p className="mt-2 font-sans text-sm italic text-orchid-soft">
               Luxury Weddings. Thoughtfully Planned.
             </p>
 
-            <div className="mt-7 flex flex-col items-center gap-2 font-sans text-[13px] tracking-[0.04em] text-ivory/75 sm:flex-row sm:justify-center sm:gap-8">
+            <div className="mt-7 flex flex-col flex-wrap items-center gap-x-8 gap-y-2 font-sans text-[13px] tracking-[0.04em] text-ivory/75 sm:flex-row sm:justify-center">
               <a
                 href={`tel:${contact.phone.replace(/\s+/g, "")}`}
-                className="transition-colors hover:text-orchid"
+                className="whitespace-nowrap transition-colors hover:text-orchid"
               >
                 {contact.phone}
               </a>
               <a
                 href={`mailto:${contact.email}`}
-                className="transition-colors hover:text-orchid"
+                className="whitespace-nowrap transition-colors hover:text-orchid"
               >
                 {contact.email}
               </a>
-              <span>{contact.social}</span>
+              <span className="whitespace-nowrap">{contact.social}</span>
             </div>
           </div>
         </Reveal>

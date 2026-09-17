@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { experience } from "../data/content";
+import { experienceHighlights } from "../data/images";
 import { Reveal, RevealGroup, revealItem } from "./Reveal";
 import { Eyebrow, SectionHeading } from "./Primitives";
+import { Slideshow3D } from "./Slideshow3D";
 import { motion } from "framer-motion";
 
 const statementSentences = experience.statement.split(". ");
@@ -36,6 +38,10 @@ export function Experience() {
             </p>
           </Reveal>
         </div>
+
+        <Reveal delay={0.2} className="mt-14 lg:mt-16">
+          <Slideshow3D images={experienceHighlights} />
+        </Reveal>
 
         <RevealGroup className="mt-16 grid grid-cols-1 border-t border-ivory/15 sm:grid-cols-2 lg:mt-20 lg:grid-cols-4">
           {experience.items.map((item, i) => (
