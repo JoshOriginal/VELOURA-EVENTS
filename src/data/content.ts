@@ -348,3 +348,9 @@ export const footer = {
   name: brand.name,
   tagline: "Luxury Weddings. Thoughtfully Planned.",
 };
+
+export const credit = {
+  year: "2026",
+  developer: "Taziki Solutions",
+  developerUrl: "https://tazikisolutions.com/",
+};
