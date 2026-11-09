@@ -87,7 +87,7 @@ export type Collection = {
 export const collections: Collection[] = [
   {
     number: "01",
-    name: "THE SAFARI COLLECTION",
+    name: "THE SAFARI PACKAGE",
     subtitle: "FOR DESTINATION WEDDINGS",
     description: [
       "Our destination wedding service provides full planning, design and coordination for celebrations that bring couples and their guests together away from home.",
@@ -114,7 +114,7 @@ export const collections: Collection[] = [
   },
   {
     number: "02",
-    name: "THE VELORA COLLECTION",
+    name: "THE VELORA PACKAGE",
     subtitle: "FOR FULL-SERVICE LOCAL WEDDINGS",
     description: [
       "Our full-service wedding planning, design and coordination experience is created for couples who want a trusted professional to guide the celebration from the earliest ideas through the final moments of the wedding day.",
@@ -141,7 +141,7 @@ export const collections: Collection[] = [
   },
   {
     number: "03",
-    name: "THE HERITAGE COLLECTION",
+    name: "THE HERITAGE PACKAGE",
     subtitle: "FOR CULTURAL & TRADITIONAL CELEBRATIONS",
     description: [
       "Our cultural and traditional event planning service is designed for families who value heritage, meaning and elegance in every detail.",
@@ -168,7 +168,7 @@ export const collections: Collection[] = [
   },
   {
     number: "04",
-    name: "THE SIGNATURE COLLECTION",
+    name: "THE SIGNATURE PACKAGE",
     subtitle: "FOR GUIDED PLANNING & WEDDING DAY COORDINATION",
     description: [
       "For couples who have thoughtfully planned their wedding but want an experienced professional to step in, refine the details and take over the final coordination.",
@@ -194,7 +194,7 @@ export const collections: Collection[] = [
   },
   {
     number: "05",
-    name: "THE EDIT COLLECTION",
+    name: "THE EDIT PACKAGE",
     subtitle: "FOR WEDDING COMMUNICATION & GUEST EXPERIENCE",
     description: [
       "A curated service for couples who want every guest-facing detail to feel seamless, intentional and beautifully presented.",
@@ -330,7 +330,7 @@ export const faq = {
     {
       question: "How is your planning fee calculated?",
       answer:
-        "Our collections use a percentage of the total vendor budget with a minimum investment. A flat fee may be discussed after consultation and once the event scope and budget are established.",
+        "Our packages use a percentage of the total vendor budget with a minimum investment. A flat fee may be discussed after consultation and once the event scope and budget are established.",
     },
   ] satisfies FaqItem[],
 };

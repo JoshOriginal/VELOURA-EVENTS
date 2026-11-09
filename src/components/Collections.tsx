@@ -7,14 +7,14 @@ import { CtaButton } from "./CtaButton";
 import { easeOutSmooth } from "./Reveal";
 
 const collectionImages: Record<string, { main: Img; accent?: Img }> = {
-  "THE SAFARI COLLECTION": { main: images.collections.safari },
-  "THE VELORA COLLECTION": { main: images.collections.velora },
-  "THE HERITAGE COLLECTION": {
+  "THE SAFARI PACKAGE": { main: images.collections.safari },
+  "THE VELORA PACKAGE": { main: images.collections.velora },
+  "THE HERITAGE PACKAGE": {
     main: images.collections.heritage,
     accent: images.collections.heritageAccent,
   },
-  "THE SIGNATURE COLLECTION": { main: images.collections.signature },
-  "THE EDIT COLLECTION": {
+  "THE SIGNATURE PACKAGE": { main: images.collections.signature },
+  "THE EDIT PACKAGE": {
     main: images.collections.edit,
     accent: images.collections.editAccent,
   },
@@ -32,13 +32,13 @@ export function Collections() {
     >
       <div className="mx-auto max-w-[1600px]">
         <SectionHeading eyebrow="Five Curated Paths">
-          COLLECTIONS
+          PACKAGES
         </SectionHeading>
 
         <div className="mt-16 flex flex-col gap-10 lg:mt-20 lg:flex-row lg:gap-14">
           {/* Tab list */}
           <nav
-            aria-label="Wedding collections"
+            aria-label="Wedding packages"
             className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5 pb-2 lg:sticky lg:top-28 lg:mx-0 lg:w-[300px] lg:shrink-0 lg:flex-col lg:gap-1 lg:self-start lg:overflow-visible lg:border-t lg:border-charcoal/10 lg:px-0 lg:pb-0"
           >
             {collectionsData.map((c, i) => {
@@ -74,7 +74,7 @@ export function Collections() {
                           : "text-charcoal-soft group-hover:text-charcoal"
                       }`}
                     >
-                      {c.name.replace("THE ", "").replace(" COLLECTION", "")}
+                      {c.name.replace("THE ", "").replace(" PACKAGE", "")}
                     </span>
                   </span>
                 </button>
