@@ -28,7 +28,7 @@ export const whatsappHref = `${contact.whatsappUrl}?text=${encodeURIComponent(
 export const navLinks = [
   { label: "WELCOME", href: "#welcome" },
   { label: "EXPERIENCE", href: "#experience" },
-  { label: "COLLECTIONS", href: "#collections" },
+  { label: "PACKAGES", href: "#collections" },
   { label: "SERVICES", href: "#services" },
   { label: "JOURNEY", href: "#journey" },
   { label: "FAQ", href: "#faq" },
